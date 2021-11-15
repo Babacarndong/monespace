@@ -1,0 +1,65 @@
+@import url(C:file:///C:\Users\HP\Desktop\site\site.html);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*background-color: #24252A;*/
+}
+
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #24252A;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+li, a, button {
+    font-family: "Montserral", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    padding: 17px 10%;
+    background-color: #24252A;
+    color: #edf0f1;
+    width: 50%;
+    bottom: 0;
+    position: fixed;
+    font-size: 14px;
+}
+
+
+
+
